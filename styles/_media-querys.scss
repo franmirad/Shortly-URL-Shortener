@@ -1,0 +1,188 @@
+/*//----------------------------------------// 1366PX //----------------------------------------//*/
+@media (max-width: 1440px) and (min-width: 1309px) {
+
+  /*//----------------------------------------// HEADER //----------------------------------------//*/
+  header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /*//----------------------------------------// HERO //----------------------------------------//*/
+  .hero {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*//----------------------------------------// 1308PX //----------------------------------------//*/
+@media (max-width: 1308px) and (min-width: 320px) {
+
+  /*//----------------------------------------// HEADER //----------------------------------------//*/
+  header {
+    padding: 10px 10px 0 10px;
+  }
+
+  /*//----------------------------------------// HERO //----------------------------------------//*/
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-hero img {
+    width: 600px;
+    height: auto;
+  }
+
+  .left-hero {
+    margin-top: 0;
+
+    h1 {
+      margin-top: 30px;
+    }
+  }
+
+  /*//----------------------------------------// STATISTICS //----------------------------------------//*/
+  .statistics-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .statistics-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .statitistics-line {
+    margin: 0;
+    min-width: 108px;
+    min-height: 8px;
+    transform: rotate(90deg);
+  }
+}
+
+/*//----------------------------------------// 800PX //----------------------------------------//*/
+@media (max-width: 800px) and (min-width: 320px) {
+
+  /*//----------------------------------------// HEADER //----------------------------------------//*/
+  .header-left ul,
+  .header-right {
+    display: none;
+  }
+
+  .sidemenu {
+    display: block;
+    padding-top: 5px;
+  }
+
+  /*//----------------------------------------// SHORTENER //----------------------------------------//*/
+  .shortener {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+
+  .shortener-button {
+    width: 100%;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  .shortener-creation,
+  .creation-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .creation-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  /*//----------------------------------------// BOTTOM //----------------------------------------//*/
+
+  .bottom .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bottom-logo {
+    margin-bottom: 20px;
+  }
+
+  .bottom-column {
+    margin-bottom: 20px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+/*//----------------------------------------// 620PX //----------------------------------------//*/
+@media (max-width: 620px) and (min-width: 320px) {
+
+  /*//----------------------------------------// HEADER //----------------------------------------//*/
+  .left-hero h1 {
+    font-size: 60px;
+  }
+
+  .right-hero img {
+    width: 500px;
+    height: auto;
+  }
+
+  /*//----------------------------------------// SHORTENER //----------------------------------------//*/
+  .full-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+}
+
+/*//----------------------------------------// 520PX //----------------------------------------//*/
+@media (max-width: 520px) and (min-width: 320px) {
+
+  /*//----------------------------------------// HEADER //----------------------------------------//*/
+  .hero,
+  .statistics {
+    padding: 0 10px 0 10px;
+  }
+
+  .left-hero h1 {
+    font-size: 50px;
+  }
+
+  .right-hero img {
+    width: 300px;
+    height: auto;
+  }
+
+  /*//----------------------------------------// STATISTICS //----------------------------------------//*/
+  .statistics-card {
+    max-width: 300px;
+    min-height: 320px;
+  }
+
+  /*//----------------------------------------// BOOST //----------------------------------------//*/
+  .boost-background img {
+    height: 290px;
+    width: auto;
+  }
+}

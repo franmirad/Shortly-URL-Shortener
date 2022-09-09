@@ -1,0 +1,156 @@
+/*//----------------------------------------// DISPLAY //----------------------------------------//*/
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+/*//----------------------------------------// FLEX-DIRECTION //----------------------------------------//*/
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+/*//----------------------------------------// JUSTIFY //----------------------------------------//*/
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right {
+  justify-content: right;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+/*//----------------------------------------// ALIGN //----------------------------------------//*/
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*//----------------------------------------// POSITTION //----------------------------------------//*/
+.absolute {
+  position: absolute;
+}
+
+/*//----------------------------------------// BACKGROUND-COLOR //----------------------------------------//*/
+.bg-gray {
+  background-color: hsl(0, 0%, 75%, 0.3);
+}
+
+/*//----------------------------------------// WIDTH //----------------------------------------//*/
+.width-100 {
+  max-width: 100%;
+}
+
+/*//----------------------------------------// HEIGHT //----------------------------------------//*/
+.height-100 {
+  max-height: 100%;
+}
+
+/*//----------------------------------------// COLOR //----------------------------------------//*/
+.white {
+  color: white;
+}
+
+/*//----------------------------------------// FONT WEIGHT //----------------------------------------//*/
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/*//----------------------------------------// FONT-SIZE //----------------------------------------//*/
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+/*//----------------------------------------// MARGIN //----------------------------------------//*/
+.m-auto {
+  margin: 0 auto;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mtb-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.mtb-120 {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/*//----------------------------------------// PADDING //----------------------------------------//*/
+.pt-50 {
+  padding-top: 50px;
+}
+
+/*//----------------------------------------// CONTAINER //----------------------------------------//*/
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.gap-20 {
+  gap: 20px;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>
+    Shortly URL shortener
+  </title>
+</head>
+
+<body>
+  <header>
+    <div class="container flex space-between row items-center">
+      <div class="header-left">
+        <a href="#">
+          <img src="images/logo.svg" alt="Shortly Logo">
+        </a>
+        <nav>
+          <ul>
+            <li href="#features">
+              Features
+            </li>
+            <li href="#pricing">
+              Pricing
+            </li>
+            <li href="#resources">
+              Resources
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">FEATURES</a>
+        <a href="#">PRICING</a>
+        <a href="#">RESOURCES</a>
+        <a class="sidenav-login" href="#">LOGIN</a>
+        <a class="sidenav-login" href="#">SIGN UP</a>
+      </div>
+      <div class="sidemenu none pointer">
+        <img src="images/icon-hamburger.svg" alt="" onclick="openNav()" width="28" height="25">
+      </div>
+      <div class="header-right">
+        <a href="#login">
+          Login
+        </a>
+        <button data-component="cyan-button">
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="hero container flex space-between items-center">
+      <div class="left-hero">
+        <h1>
+          More than just shorter links
+        </h1>
+        <p>
+          Build your brand’s recognition and get detailed insights
+          on how your links are performing.
+        </p>
+        <button data-component="cyan-button">
+          Get Started
+        </button>
+      </div>
+      <div class="right-hero">
+        <img src="images/illustration-working.svg" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <form class="shortener flex center m-auto">
+        <div class="shortener-background">
+          <img src="images/bg-boost-desktop.svg" alt="">
+        </div>
+        <input class="shortener-input" type="text" placeholder="Shorten a link here...">
+        <div class="shortener-button">
+          <button class="short-button" data-component="cyan-button" onclick="">
+            Shorten It!
+          </button>
+        </div>
+      </form>
+      <div class="shortener-creations">
+
+      </div>
+    </div>
+    <div class="bg-gray pt-50">
+      <div class="statistics container">
+        <div class="statistics-text">
+          <div>
+            <h2>
+              Advanced Statistics
+            </h2>
+            <p>
+              Track how your links are performing across the web with our
+              advanced statistics dashboard.
+            </p>
+          </div>
+        </div>
+        <div class="statistics-cards flex flex-row center">
+          <div class="statistics-card" data-component="card">
+            <div class="card-image">
+              <img src="images/icon-brand-recognition.svg" alt="">
+            </div>
+            <div>
+              <h2>
+                Brand Recognition
+              </h2>
+              <p>
+                Boost your brand recognition with each click. Generic links don’t
+                mean a thing. Branded links help instil confidence in your content.
+              </p>
+            </div>
+          </div>
+          <div class="statitistics-line">
+          </div>
+          <div class="statistics-card mtb-60" data-component="card">
+            <div class="card-image">
+              <img src="images/icon-detailed-records.svg" alt="">
+            </div>
+            <div>
+              <h2>
+                Detailed Records
+              </h2>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and where
+                people engage with your content helps inform better decisions.
+              </p>
+            </div>
+          </div>
+          <div class="statitistics-line">
+          </div>
+          <div class="statistics-card mtb-120" data-component="card">
+            <div class="card-image">
+              <img src="images/icon-fully-customizable.svg" alt="">
+            </div>
+            <h2>
+              Fully Customizable
+            </h2>
+            <p>
+              Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="boost">
+      <div class="container flex center">
+        <div class="boost-background">
+          <img src="images/bg-boost-desktop.svg" alt="">
+        </div>
+        <div class="text-center">
+          <h2>
+            Boost your links today
+          </h2>
+          <div class="boost-button">
+            <button data-component="cyan-button">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="container flex space-evenly">
+        <div>
+          <a href="#">
+            <img class="bottom-logo" src="images/logo.svg" alt="Shortly Logo">
+          </a>
+        </div>
+        <div class="bottom-column">
+          <h4>
+            Features
+          </h4>
+          <a href="">
+            Link Shortening
+          </a>
+          <a href="">
+            Branded Links
+          </a>
+          <a href="">
+            Analytics
+          </a>
+        </div>
+        <div class="bottom-column">
+          <h4>
+            Resources
+          </h4>
+          <a href="">
+            Blog
+          </a>
+          <a href="">
+            Developers
+          </a>
+          <a href="">
+            Support
+          </a>
+        </div>
+        <div class="bottom-column">
+          <h4>
+            Company
+          </h4>
+          <a href="">
+            About
+          </a>
+          <a href="">
+            Our Team
+          </a>
+          <a href="">
+            Careers
+          </a>
+          <a href="">
+            Contact
+          </a>
+        </div>
+
+        <div class="bottom-social flex gap-20">
+          <a href="#">
+            <i class='bx bxl-facebook-square bx-sm'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-twitter bx-sm'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-pinterest bx-sm'></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram bx-sm'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer flex center">
+    <div class="container">
+      <span>Coded by <a href="https://github.com/franmirad"> Francisco Mirad</a>.</span>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
